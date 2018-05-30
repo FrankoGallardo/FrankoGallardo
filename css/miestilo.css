@@ -1,0 +1,41 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.encabezadoPrincipal {
+    text-align: right;
+    font-style: italic;
+}
+
+.encabezado {
+    font-style: italic;
+}
+
+.fecha {
+    text-align: right;
+}
+
+h3 {
+    font-size: 180%;
+}
+
+h4 {
+    font-size: 150%;
+}
+
+p,
+ul,
+ol,
+dl,
+address {
+    font-size: 100%;
+}
+
+p,
+li,
+dd,
+dt,
+address {
+    line-height: 130%;
+}
