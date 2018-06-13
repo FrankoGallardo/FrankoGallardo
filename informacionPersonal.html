@@ -6,64 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" href="images/FrankGallardo.png">
+    <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.min.css">
     <title>Informacion Personal</title>
 </head>
 
 <body>
 
-    <style type="text/css">
-        h4 {
-            font-family: Arial;
-            font-size: 14pt;
-            color: black;
-            text-indent: 15px;
-            text-align: left;
-            margin-left: 10px;
-        }
-        
-        li,
-        p {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 12pt;
-            color: darkblue;
-            text-align: left;
-            margin-left: 8px;
-        }
-    </style>
     <header>
-        <p align="center">
-            <ul>
-                <ol>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="perfilProfesional.html">perfilProfesional</a></li>
-                    <li><a href="informacionPersonal.html">informacionPersonal</a></li>
-                    <li><a href="habilidades.html">Habilidades</a></li>
-                    <li><a href="experienciaLaboral.html">Experiencia Laboral</a></li>
-                    <li><a href="horarios.html">Horarios</a></il>
-                </ol>
-            </ul>
+        <div class="jumbotron text-center">
+            <button type="button" class="btn btn-primary btn-lg"><a style="color:seashell" href="index.html ">Home</a></button>
+            <button type="button" class="btn btn-primary btn-lg"><a style="color: seashell" href="perfilProfesional.html ">Perfil Profesional</a></button>
+            <button type="button" class="btn btn-primary btn-lg"><a style="color: seashell" href="informacionPersonal.html ">Información Personal</a></button>
+            <button type="button" class="btn btn-primary btn-lg"><a style="color: seashell" href="habilidades.html ">Habilidades</a></button>
+            <button type="button" class="btn btn-primary btn-lg"><a style="color: seashell" href="experienciaLaboral.html ">Experiencia Laboral</a></button>
+            <button type="button" class="btn btn-primary btn-lg"><a style="color: seashell" href="horarios.html ">Horarios</a></button>
+        </div>
     </header>
 
 
-    <h4>INFORMACIÓN PERSONAL</h4>
-    <img src="images/foto.png" border="1" width="120" height="150">
-    <ul>
-        <li>Apellidos : GALLARDO ALIAGA</li>
-        <li>Nombres : FRANK OMAR</li>
-        <li>D.N.I. : 70208647</li>
-        <li>Departamento : Cajamarca</li>
-        <li>Provincia : Cajamarca</li>
-        <li>Distrito : Cajamarca</li>
-        <li>Fecha de Nacimiento : Abril 28, 1994</li>
-        <li>Edad : 24 años</li>
+    <div class="container" style="background: chocolate">
+        <div class="row">
+            <div class="col-md-4 jumbotron col-md-offset-2" style="color: black">
+                <h4 class=""><strong>INFORMACIÓN PERSONAL</stronG></h4>
+            </div>
+        </div>
+        <div class: "row">
+            <div class="col-md-4 jumbotron col-md-offset-2">
+                <img src="images/foto.png" border="1" width="240" height="300">
+            </div>
 
-    </ul>
+            <div class="col-md-4 jumbotron col-md-offset-1">
+                <ul class="text-justify" style="color: darkblue">
+                    <li>Apellidos : GALLARDO ALIAGA</li>
+                    <li>Nombres : FRANK OMAR</li>
+                    <li>D.N.I. : 70208647</li>
+                    <li>Departamento : Cajamarca</li>
+                    <li>Provincia : Cajamarca</li>
+                    <li>Distrito : Cajamarca</li>
+                    <li>Fecha de Nacimiento : Abril 28, 1994</li>
+                    <li>Edad : 24 años</li>
+                </ul>
+            </div>
+        </div>
 
-    <h4>INFORMACIÓN ADICIONAL</h4>
-    <p align="justify">
-        Cuento con un certificado de Prácticas Pre-Profesionales <br/>realizadas en la ciudad de Lima, para la empresa <br/>de EXCELLINKED.SAC en el rubro de desarrollo de tecnologías de aplicaciones.
-    </p>
+        <div class="row">
+            <div class="col-md-4 jumbotron col-md-offset-4" style="color: black">
+                <h4 style="color: black"><strong>INFORMACIÓN ADICIONAL</h4>
+            </div>
+
+            <div class="col-md-6 jumbotron col-md-offset-3">
+                <p class="text-justify" style="color: darkblue">
+                    Cuento con un certificado de Prácticas Pre-Profesionales realizadas en la ciudad de Lima, para la empresa de EXCELLINKED.SAC en el rubro de desarrollo de tecnologías de aplicaciones.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
 
 </body>
 
-</html>
+</html
