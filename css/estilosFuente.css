@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFFFFA;
+}
+
+header {
+    width: 100%;
+}
+
+header nav {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #024959;
+}
+
+.menu_bar {
+    display: none;
+}
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    color: #fff;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+header nav ul li span {
+    margin-right: 10px;
+}
+
+header nav ul li a:hover {
+    background: #037E8C;
+}
+
+section {
+    padding: 20px;
+}
+
+p {
+    font-family: 'Anton', sans-serif;
+}
+
+strong {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+
+#cssSlider {
+    width: 720px;
+    height: 480px;
+    overflow: hidden;
+    margin-left: 20%;
+}
+
+#sliderImages #si_1 {
+    width: 780px;
+    height: 480px;
+}
+
+#sliderImages #si_2 {
+    width: 780px;
+    height: 480px;
+}
+
+#sliderImages #si_3 {
+    width: 780px;
+    height: 480px;
+}
+
+#sliderImages #si_4 {
+    width: 780px;
+    height: 480px;
+}
+
+#sliderImages #si_5 {
+    width: 780px;
+    height: 480px;
+}
+
+#sliderImages {
+    width: 3900px;
+    height: 480px;
+    overflow: hidden;
+    /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+    animation: slide 16s infinite;
+    -moz-animation: slide 16s infinite;
+    -webkit-animation: slide 16s infinite;
+    -o-animation: slide 16s infinite;
+}
+
+#sliderImages img {
+    float: left;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    97% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@-moz-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: -3200px;
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: -3200px;
+    }
+}
+
+@-o-keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    17% {
+        margin-left: 0px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    37% {
+        margin-left: -800px;
+    }
+    40% {
+        margin-left: -1600px;
+    }
+    57% {
+        margin-left: -1600px;
+    }
+    60% {
+        margin-left: -2400px;
+    }
+    77% {
+        margin-left: -2400px;
+    }
+    80% {
+        margin-left: -3200px;
+    }
+    100% {
+        margin-left: -3200px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .columns {
+        margin-left: 1%;
+    }
+    .container {
+        margin-left: 1%;
+    }
+    .container .column {
+        margin-left: 1%;
+    }
+    .container .column p {
+        margin-left: 1%;
+    }
+    .container .column strong {
+        margin-left: 1%;
+        font-size: 20px;
+    }
+    .columns .is-8 {
+        font-size: 20px;
+    }
+    #cssSlider {
+        width: 330px;
+        height: 200px;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+    #sliderImages #si_1 {
+        width: 360px;
+        height: 240px;
+    }
+    #sliderImages #si_2 {
+        width: 360px;
+        height: 240px;
+    }
+    #sliderImages #si_3 {
+        width: 360px;
+        height: 240px;
+    }
+    #sliderImages #si_4 {
+        width: 360px;
+        height: 240px;
+    }
+    #sliderImages #si_5 {
+        width: 360px;
+        height: 240px;
+    }
+    #sliderImages {
+        width: 1950px;
+        height: 240px;
+        overflow: hidden;
+        /* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
+        animation: slide 16s infinite;
+        -moz-animation: slide 16s infinite;
+        -webkit-animation: slide 16s infinite;
+        -o-animation: slide 16s infinite;
+    }
+    /*menu*/
+}

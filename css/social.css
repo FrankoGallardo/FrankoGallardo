@@ -25,6 +25,7 @@
     padding: .7rem;
     display: flex;
     transition: all .5s;
+    width: 50%;
 }
 
 
